@@ -7,8 +7,8 @@ import MainContent from "./MainContent";
 
 export default function Content() {
   return (
-    <div className="flex h-screen">
-      <div className="flex-[0.9] border border-gray-300 px-20 py-8 flex justify-center">
+    <div className="flex h-screen flex-col md:flex-row overflow-scroll">
+      <div className="flex-1 md:flex-[0.9] border border-gray-300 p-4 md:px-20 md:py-8 flex justify-center">
         <MainContent />
       </div>
       <div className="flex-[0.3] p-2 border border-gray-300">
