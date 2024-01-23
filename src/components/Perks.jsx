@@ -4,7 +4,7 @@ import { IoIosCheckmarkCircle } from "react-icons/io";
 
 export default function Perks({ perk, perkType, description }) {
   return (
-    <div className="w-full lg:w-[245px] h-[350px] md:h-[300px] border border-gray-300 shadow-md p-2 hover:scale-105 transition-transform duration-200 flex flex-col justify-between">
+    <div className="w-full lg:w-[245px] h-fit min-h-[300px] md:h-[300px] border border-gray-300 shadow-md p-2 hover:scale-105 transition-transform duration-200 flex flex-col justify-between">
       <Image src={perk} width={300} height={300} className="w-full" />
       <p className="font-semibold px-1">{perkType}</p>
       <span>{description}</span>
